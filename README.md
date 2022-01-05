@@ -90,19 +90,23 @@ Cette fonction retourne le nombre de commandes non valides. Par exemple, si F es
 
 5. **Définition des déplacements de la tondeuse depuis sa position initiale**
 Nom de la fonction: *ActionsFinales*
-<br/>Cette fonction donne la dernière position de la tondeuse en fonction de ces déplacements. 
-• Si son déplacement se fait vers la droite: 
+<br/>Cette fonction donne la dernière position de la tondeuse en fonction de ces déplacements.
+
+<br/>• Si son déplacement se fait vers la droite: 
 - Position Sud: changement de postion vers l'Ouest
 - Position Nord: changement de postion vers l'Est
 - Position Est: changement de postion vers le Sud
 - Position Ouest: changement de postion vers le Nord
-• Si son déplacement se fait vers la gauche:  
+
+<br/>• Si son déplacement se fait vers la gauche:  
 - Position Sud: changement de postion vers l'Est
 - Position Nord: changement de postion vers l'Ouest
 - Position Est: changement de postion vers le Nord
 - Position Ouest: changement de postion vers le Sud
-• Si son déplacement se fait vers l'avant:  
+
+<br/>• Si son déplacement se fait vers l'avant:  
 - La tondeuse se déplace d'un pas en avant. 
+
 
 6. **Stockage des résultats pour chaque tondeuse**
 Nom de la fonction: *StochageResultat*
